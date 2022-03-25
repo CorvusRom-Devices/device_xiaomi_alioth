@@ -13,6 +13,9 @@ TARGET_ENABLE_AUDIO_ULL := true
 # Inherit from sm8250-common
 $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 
+# Inherit Gcam BSG
+$(call inherit-product, vendor/GcamBSG/GcamBSG-vendor.mk)  
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
