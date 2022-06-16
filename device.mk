@@ -456,6 +456,10 @@ PRODUCT_PACKAGES += \
     sg_write_buffer \
     f2fs_io \
     check_f2fs
+    
+# Storage
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.fuse.passthrough.enable=true
 
 # Sensors
 PRODUCT_PACKAGES += \
