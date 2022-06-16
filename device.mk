@@ -337,10 +337,6 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
-# ParanoidDoze
-PRODUCT_PACKAGES += \
-    ParanoidDoze
-
 # Perf
 PRODUCT_PACKAGES += \
     libqti-perfd-client
