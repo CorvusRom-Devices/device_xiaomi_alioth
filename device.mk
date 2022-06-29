@@ -173,7 +173,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Audio Motodolby Config
 PRODUCT_COPY_FILES += \
-    device/xiaomi/sm8250-common/configs/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
+    device/xiaomi/alioth/configs/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
 
 # Audio configs
 PRODUCT_COPY_FILES += \
