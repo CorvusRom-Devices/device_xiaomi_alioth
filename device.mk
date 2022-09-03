@@ -457,6 +457,10 @@ PRODUCT_PACKAGES += \
     f2fs_io \
     check_f2fs
     
+# Shims
+PRODUCT_PACKAGES += \
+    lib-watermarkshim
+
 # Storage
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.fuse.passthrough.enable=true
