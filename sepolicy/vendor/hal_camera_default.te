@@ -16,6 +16,8 @@ allow hal_camera_default remosaic_daemon_service:service_manager find;
 
 allow hal_camera_default proc_stat:file read;
 
+add_hwservice(hal_camera_default, hal_camerapostproc_xiaomi_hwservice)
+
 set_prop(hal_camera_default, vendor_camera_prop)
 
 allow hal_camera_default socket_device:sock_file write;
