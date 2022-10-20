@@ -14,9 +14,6 @@ $(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 # Inherit from alioth device
 $(call inherit-product, device/xiaomi/alioth/device.mk)
 
-# Inherit miui camera
-$(call inherit-product, vendor/miuicamera/config.mk)
-
 # Device identifier
 PRODUCT_NAME := corvus_alioth
 PRODUCT_DEVICE := alioth
