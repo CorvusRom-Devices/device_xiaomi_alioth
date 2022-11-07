@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_enableAuxCameras">true</bool>
+    <string-array name="config_ignoredAuxCameraIds">
+        <item>6</item>
+    </string-array>
+</resources>
